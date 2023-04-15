@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>instantgram</title>
+    <!-- ................CUSTOM CSS LINK................... -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body >
+    <!-- .............START NAV SECTION...................... -->
+    <nav>
+        <div class="container nav-container">
+            <h2 class="logo">
+              instant<span>gram</span>
+            </h2>
+            <div class="search-bar">
+                <img src="icon/search.svg" class="icon2">
+                <input type="Search" placeholder="search for people,plac...">
+            </div>
+            <div class="create">
+                <label for="creatPost" class="btn btn-primary" >Account</label>
+                <div class="profile-phots">
+                    <img src="img/p1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- ................END NAV SECTION......................... -->
+     <!-- ................START MAINE SECTION......................... -->
+     <main>
+      <div class="container main-container">
+          <!--=======MAIN LEFT======== -->
+          <div class="main-left">
+            <div class="profile">
+              <div class="profile-phots">
+                  <img src="img/p1.jpg" alt="">
+              </div> 
+              <div class="hendel">
+                  <h4>G_A_L</h4>
+                  <p class="text-gry">@GALFINDER</p>
+              </div>  
+            </div>
+
+            <!--.............. SIDEBAR.............. -->
+            <div class="side-bar"> 
+
+              <a class="menu-item active" >
+                  <span><img src="icon/house-door.svg" class="icon1"></span><h3>home</h3>
+              </a>
+              <a class="menu-item " >
+                  <span><img src="icon/joystick.svg" class="icon1"></span><h3>explore</h3>
+              </a>
+              <a class="menu-item"  id="message">
+                  <span> <small class="count">0</small> <img src="icon/chat-left-dots.svg" class="icon1"></span><h3>message</h3>
+              </a>
+              <a class="menu-item " >
+                  <span><img src="icon/bookmarks.svg" class="icon1"></span><h3>bookmarks</h3>
+              </a>
+              <a class="menu-item g" >
+                  <span><img src="icon/gear.svg" class="icon1"></span><h3>setings</h3>
+              </a>   
+            </div>
+
+          </div>
+           <!-- =======MAIN MID======= -->
+            <div class="main-mid">
+                
+                <!-- storys..start.. -->
+                <div class="storys">
+                    <div class="story">
+                        <div class="profile-phots">
+                            <img src="img/p1.jpg" alt="" >
+                        </div>
+                        <p>Your Story</p>
+                    </div>
+                </div>                
+                <!-- storys..end.. -->
+                <form class="creatPost">
+                    <div class="profile-phots">
+                        <img src="img/p1.jpg" alt="">
+                    </div>
+                   <div class="text-post">
+                      <input type="text" placeholder="What's on your mind?" class="creatPost">
+                   </div>
+
+                   <div>
+                       <input type="submit" value="post" class="btn btn-primary">
+                   </div>
+                </form>
+                <br>
+                <p style="border: 10px solid #cec8c8; padding: 100px;height: 1000px;width: 400px;">YOUR FEED IS EMPTY!!!<br> <br> Follow people to see their posts   </p>
+                
+            </div>
+      </div>
+      <div style="background-color: #333; color: #fff; padding: 10px; text-align: center;">
+        &copy; 2023 INSTANTGRAM. All rights reserved.
+      </div>
+      
+    </main>
+  </body>
+      </html>
